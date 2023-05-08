@@ -1,0 +1,6 @@
+Circle: π x radius²
+Triangle: (base x height)/2
+Square: (side × side)
+Rectable: (length × width)
+trapezium: ½ (smallestBase + biggestBase) x height
+

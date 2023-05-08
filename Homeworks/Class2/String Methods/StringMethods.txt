@@ -1,0 +1,11 @@
+We have 3 escential methots inside the string class: Reverse, Capitalize and Length
+
+Reverse: It returns the string that we are work with but with the characters, as its name says, in a reverse way
+
+Capitalize: It returns the string we are working with but with the first character in capital letter. If the string
+have more than one world, it will only capitalize the first world.
+
+Length: It returns the number of characters that has the string we are working with. It will count letters, numbers,
+spaces, symbols, etc.
+
+For some examples, check the "StringMethodsExamples.rb" file

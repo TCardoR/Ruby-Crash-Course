@@ -1,0 +1,5 @@
+Both "Chomp" and "Chop" methods have the same purpose, but they have a litle difference. When we talk about
+the Chomp method, its basic purpose is to knock off some specific characters from the string we are working with. On the
+other hand, the Chop method will do the same but always with the last character of the string, no matter what it iss.
+
+For some examples, check the "ChompVsChopExamples.rb" file

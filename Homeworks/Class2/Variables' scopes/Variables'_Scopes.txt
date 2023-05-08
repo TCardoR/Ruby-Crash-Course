@@ -1,0 +1,29 @@
+First of all, we should define what is a Scope. A scope is a way to declare a variable and its way to get into it.
+In Ruby, we have 4 main Scopes and a plus one: Local, Global, Instance, and Class.
+
+Local variable: A local variable can only be accessed inside the method or loop where it is declared, you can not use it
+in other parts of the code. To declare a local variable you have the option to use any of the minuscule [a-z] or start
+the variable with a _
+
+Global variable: As its name says, a global variable can be accessed for any place in the code regardless of where it is.
+To declare a global variable it should start whit the $ prefix.
+
+Instance variable: This variable has the attribute to have different "copies" of itself. To understand this, we should
+imagine a variable declared in an object. If the value of that variable changes in another part of the code, it will
+only change for that object, the original value is still saved in its original object. To declare an instance variable
+it should start with the @ prefix.
+
+Class variable: This variable works similarly to an Instance variable as it can be used in different parts of the code
+and different objects, the main difference is that when you change the value of a Class variable, it will change in all
+ the objects where the variable is been used. To declare a class value, you should start with the @@ prefix.
+
+Constant scope: This type of scope is, as its name says, a constant inside the code. Ruby has freedom in this type of
+scope because you actually can change it later, but it will give you advice with a warning message. This scope can work
+as other scopes depending on the place where you decide to declare it. To declare a constant you should use any capital
+letter [A-Z].
+
+If you are not secure about the type of scope that is a variable, you can use the define? method that will return the
+scope.
+
+For some examples, check the "VariablesScopesExamples.rb" file
+
